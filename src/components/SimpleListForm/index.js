@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ListItens from './components/ListItens'
 
-const ListItemSingle = () => {
+const SimpleListForm = () => {
   const [list, setList] = useState(['Rodrigo Nogueira']);
   const [item, setItem] = useState('');
 
@@ -26,4 +26,4 @@ const ListItemSingle = () => {
   )
 }
 
-export default ListItemSingle
+export default SimpleListForm

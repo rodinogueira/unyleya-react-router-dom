@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ListItens from './components/ListItens'
 
-const ListItemMultiple = () => {
+const FormAddToList = () => {
   const [list, setList] = useState([]);
   const [items, setItens] = useState({
     name: '',
@@ -48,4 +48,4 @@ const ListItemMultiple = () => {
   )
 }
 
-export default ListItemMultiple
+export default FormAddToList

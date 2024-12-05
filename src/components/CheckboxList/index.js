@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-export default function ListItem({list}) {
+export default function CheckboxList({list}) {
     const [isChecked, setIsChecked] = useState(false);
     console.log(isChecked)
     
